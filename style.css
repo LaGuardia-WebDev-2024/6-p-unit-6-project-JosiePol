@@ -19,13 +19,18 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(14, 6, 244);
+  border-top-style:dotted;
+  border-bottom-style:dashed;
+  
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://c8.alamy.com/comp/T8W9G5/holographic-galaxy-marble-pattern-unicorn-space-swirl-background-vector-illustration-T8W9G5.jpg");
+  overlay: rgb(128, 30, 30);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
@@ -37,7 +42,9 @@ html{
   width: 400px;
   object-fit: cover;
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(252, 7, 7);
+  border-top-style:dotted;
+  border-bottom-style: dashed;
 }
 
 h2{

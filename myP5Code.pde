@@ -46,6 +46,9 @@ ellipse(310,140,75,75)
 fill(255,0,0)
 ellipse(202,302,200,100)
 
+//eyebrows
+arc(90, 100, 200, 200, radians(180), radians(360))
+arc(310, 100, 200, 200, radians(180), radians(360))
 
 
 }
